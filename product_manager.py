@@ -5,6 +5,13 @@ class ProductManager:
     def add_product(self, product):
         self.products.append(product)
 
+    def remove_product(self, product_name):
+        self.products = [
+            product
+            for product in self.products
+            if product.name != product_name
+        ]
+
     def show_products(self):
         if not self.products:
             print("No products available.")
