@@ -1,0 +1,11 @@
+# ignorisanje poverljivih podataka
+config.json
+
+# ignorisanje screenshotova
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.pyc
