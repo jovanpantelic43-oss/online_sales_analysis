@@ -1,4 +1,3 @@
-
 from product import Product
 from product_manager import ProductManager
 from cart import Cart
